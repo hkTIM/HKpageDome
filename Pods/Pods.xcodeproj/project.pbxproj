@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FE0958DBD4753199C4CB3C24FF92FDA /* XHLaunchAd-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B656285C7582D31D6E5511702604662 /* XHLaunchAd-dummy.m */; };
+		23AFE8759E390C8E4736BDAB1BA25ADD /* XHLaunchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B314E6768CBEA362E3DA91E1221D0B /* XHLaunchImageView.m */; };
+		392A4F316ACBD19AF567C5146F6A0CC1 /* XHLaunchAdConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 163849170D5695A9F8F98978392A3581 /* XHLaunchAdConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A9B1CC5685144774BE0A68DA50DA3A1 /* XHLaunchAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 59E4F0C730FF20CB98548F451CA0CF3A /* XHLaunchAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40C864D216138C2C8C3D75AF8F7CDDFB /* XHLaunchImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = D384A64792F6459585DD0949AEE7E612 /* XHLaunchImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FE961C6F49A93B9EAFA3C0EC2DFC262 /* XHLaunchAdDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DB852B4222180CB1D90DB1A12E12B2 /* XHLaunchAdDownload.m */; };
+		6E8C6FC72D9D7DBE0D88478520EE1F1F /* XHLaunchAdButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC160F5475157F7535EAF531C88046 /* XHLaunchAdButton.m */; };
+		74B7994D7FE1704257CCFD931AB401D9 /* NSString+XHLaunchAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 60A0F909924F9B8B6E7DB8E8A05B0BE4 /* NSString+XHLaunchAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		755144939BC010DE7DCAA06D50818E9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7D4DBCE92E20A7B3FDE9C0C8E71A74CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		812EE989652B3923247E4BC83A961B82 /* XHLaunchAdImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5DFE512F723EE33D389FB8B374850F /* XHLaunchAdImageManager.m */; };
+		8E1BEE97044A81F98034EF129EDAF954 /* NSString+XHLaunchAd.m in Sources */ = {isa = PBXBuildFile; fileRef = BF65B4330EDADC27793954FA3FFAAD40 /* NSString+XHLaunchAd.m */; };
+		93ECF7B5867A5A7942B08CEB7FF570E1 /* XHLaunchAdDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CC80C736B010557AC661E8034F0FF7 /* XHLaunchAdDownloader.m */; };
+		944C56C23AFD742A7E4C7D187722CC9F /* XHLaunchAdDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = C3486E608E10190A582FD5C4EF7851F0 /* XHLaunchAdDownload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97DE1E87145F1CCF466DBC6E7E617EE5 /* XHLaunchAdButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F74AF0176BC0784C464D6E47D4380F22 /* XHLaunchAdButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A059B1AC1F35A66D8089F46B6A7D0F50 /* XHLaunchAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79FB7B0548060C7382EED4F9C89F4A6C /* XHLaunchAdView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A58625504B1567263BB3A2BA399AC296 /* Pods-launchpageDome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA3F6111B34FC2B5962FEF6B4E17FFD /* Pods-launchpageDome-dummy.m */; };
+		A5FB20F5B74CFCCF03C560B62A6EF18A /* UIImageView+XHLaunchAdCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 049555887EBC494FCDA1194A55C5BE0D /* UIImageView+XHLaunchAdCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADF24A45AD27D038C8CB109A8D08C249 /* XHLaunchAdDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 374E23FBF41F8DBAA4960F85E9053249 /* XHLaunchAdDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0E2244B7BB6C0A591806C17F4132819 /* UIImage+XHLaunchAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F21924BE68B492FD7C14E425BB3C50D /* UIImage+XHLaunchAd.m */; };
+		B46E264CA3229937E688DE1DDDD2BBEB /* UIImageView+XHLaunchAdCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BC80B16F6B4F773DE167F719E3C5EA /* UIImageView+XHLaunchAdCache.m */; };
+		C1C233C930E1FB84FBC33482BA700A44 /* XHLaunchAdConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7228D9D4BE59732C977F4CEC396A02B7 /* XHLaunchAdConfiguration.m */; };
+		D09E371D117D9E6A72671E695D1EEB72 /* XHLaunchAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = A428F12F462DA70AE1827FDEBEFB36CA /* XHLaunchAdView.m */; };
+		D8695E79ECD453E02A520473F956235D /* XHLaunchAdCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F83BD75B5BBABB3DFA3443032FD1C01 /* XHLaunchAdCache.m */; };
+		E4CF93D3AC2EBC25115F9AFE146E99CD /* XHLaunchAdCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3619E54DE3E6BDC1CB956B78FB12CF2D /* XHLaunchAdCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E70051CD75E62D3D7AA07C0CF68950C3 /* XHLaunchAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 32224D45E35062FB0F1D5EF78FC55424 /* XHLaunchAd.m */; };
+		F5307549D55625C5ECD9F2FE3E56BB09 /* XHLaunchAdImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A01FF1B31FE5C29A8F970183D739C413 /* XHLaunchAdImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F72CE66AACA3A4268A35BA0B34E1C079 /* UIImage+XHLaunchAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 001E94169C966A2ED7FE465CA26E4F7D /* UIImage+XHLaunchAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE1573EE7FAFF283B0206E22E48B408D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E47CF262A2C532C08F66D24CF5955E7;
+			remoteInfo = XHLaunchAd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001E94169C966A2ED7FE465CA26E4F7D /* UIImage+XHLaunchAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+XHLaunchAd.h"; path = "XHLaunchAd/UIImage+XHLaunchAd.h"; sourceTree = "<group>"; };
+		049555887EBC494FCDA1194A55C5BE0D /* UIImageView+XHLaunchAdCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+XHLaunchAdCache.h"; path = "XHLaunchAd/UIImageView+XHLaunchAdCache.h"; sourceTree = "<group>"; };
+		163849170D5695A9F8F98978392A3581 /* XHLaunchAdConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHLaunchAdConfiguration.h; path = XHLaunchAd/XHLaunchAdConfiguration.h; sourceTree = "<group>"; };
+		17CC80C736B010557AC661E8034F0FF7 /* XHLaunchAdDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHLaunchAdDownloader.m; path = XHLaunchAd/XHLaunchAdDownloader.m; sourceTree = "<group>"; };
+		1BEDAB9C308C8CAE6E8E07A5280DE1B2 /* libPods-launchpageDome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-launchpageDome.a"; path = "libPods-launchpageDome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		316F3E74F73DE7D92AA0B9BDD91D67AB /* Pods-launchpageDome-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-launchpageDome-acknowledgements.plist"; sourceTree = "<group>"; };
+		32224D45E35062FB0F1D5EF78FC55424 /* XHLaunchAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHLaunchAd.m; path = XHLaunchAd/XHLaunchAd.m; sourceTree = "<group>"; };
+		33B314E6768CBEA362E3DA91E1221D0B /* XHLaunchImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHLaunchImageView.m; path = XHLaunchAd/XHLaunchImageView.m; sourceTree = "<group>"; };
+		3619E54DE3E6BDC1CB956B78FB12CF2D /* XHLaunchAdCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHLaunchAdCache.h; path = XHLaunchAd/XHLaunchAdCache.h; sourceTree = "<group>"; };
+		374E23FBF41F8DBAA4960F85E9053249 /* XHLaunchAdDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHLaunchAdDownloader.h; path = XHLaunchAd/XHLaunchAdDownloader.h; sourceTree = "<group>"; };
+		3CA3F6111B34FC2B5962FEF6B4E17FFD /* Pods-launchpageDome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-launchpageDome-dummy.m"; sourceTree = "<group>"; };
+		43DB852B4222180CB1D90DB1A12E12B2 /* XHLaunchAdDownload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHLaunchAdDownload.m; path = XHLaunchAd/XHLaunchAdDownload.m; sourceTree = "<group>"; };
+		59E4F0C730FF20CB98548F451CA0CF3A /* XHLaunchAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHLaunchAd.h; path = XHLaunchAd/XHLaunchAd.h; sourceTree = "<group>"; };
+		60A0F909924F9B8B6E7DB8E8A05B0BE4 /* NSString+XHLaunchAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+XHLaunchAd.h"; path = "XHLaunchAd/NSString+XHLaunchAd.h"; sourceTree = "<group>"; };
+		69BC80B16F6B4F773DE167F719E3C5EA /* UIImageView+XHLaunchAdCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+XHLaunchAdCache.m"; path = "XHLaunchAd/UIImageView+XHLaunchAdCache.m"; sourceTree = "<group>"; };
+		7228D9D4BE59732C977F4CEC396A02B7 /* XHLaunchAdConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHLaunchAdConfiguration.m; path = XHLaunchAd/XHLaunchAdConfiguration.m; sourceTree = "<group>"; };
+		7628E1A1E21823AB2FC7EF3BCC309982 /* Pods-launchpageDome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-launchpageDome.debug.xcconfig"; sourceTree = "<group>"; };
+		79FB7B0548060C7382EED4F9C89F4A6C /* XHLaunchAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHLaunchAdView.h; path = XHLaunchAd/XHLaunchAdView.h; sourceTree = "<group>"; };
+		7EFC160F5475157F7535EAF531C88046 /* XHLaunchAdButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHLaunchAdButton.m; path = XHLaunchAd/XHLaunchAdButton.m; sourceTree = "<group>"; };
+		8B656285C7582D31D6E5511702604662 /* XHLaunchAd-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XHLaunchAd-dummy.m"; sourceTree = "<group>"; };
+		8F83BD75B5BBABB3DFA3443032FD1C01 /* XHLaunchAdCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHLaunchAdCache.m; path = XHLaunchAd/XHLaunchAdCache.m; sourceTree = "<group>"; };
+		9134EDC80BA7A66726D28C4C29F11193 /* XHLaunchAd.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XHLaunchAd.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EA369718878809D5BE473A7C6495500 /* XHLaunchAd-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XHLaunchAd-prefix.pch"; sourceTree = "<group>"; };
+		9F21924BE68B492FD7C14E425BB3C50D /* UIImage+XHLaunchAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+XHLaunchAd.m"; path = "XHLaunchAd/UIImage+XHLaunchAd.m"; sourceTree = "<group>"; };
+		9F8394B2B7134FE3F045DAA036266923 /* Pods-launchpageDome-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-launchpageDome-frameworks.sh"; sourceTree = "<group>"; };
+		A01FF1B31FE5C29A8F970183D739C413 /* XHLaunchAdImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHLaunchAdImageManager.h; path = XHLaunchAd/XHLaunchAdImageManager.h; sourceTree = "<group>"; };
+		A428F12F462DA70AE1827FDEBEFB36CA /* XHLaunchAdView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHLaunchAdView.m; path = XHLaunchAd/XHLaunchAdView.m; sourceTree = "<group>"; };
+		BA034F264150B0C624C1A113DEB7F99B /* Pods-launchpageDome-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-launchpageDome-resources.sh"; sourceTree = "<group>"; };
+		BF65B4330EDADC27793954FA3FFAAD40 /* NSString+XHLaunchAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+XHLaunchAd.m"; path = "XHLaunchAd/NSString+XHLaunchAd.m"; sourceTree = "<group>"; };
+		C3486E608E10190A582FD5C4EF7851F0 /* XHLaunchAdDownload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHLaunchAdDownload.h; path = XHLaunchAd/XHLaunchAdDownload.h; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D384A64792F6459585DD0949AEE7E612 /* XHLaunchImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHLaunchImageView.h; path = XHLaunchAd/XHLaunchImageView.h; sourceTree = "<group>"; };
+		D77FFE605CB8F438B584918B5E392DA5 /* libXHLaunchAd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXHLaunchAd.a; path = libXHLaunchAd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9158140A7E61F6FC0BD5BC8EF6E2FEB /* Pods-launchpageDome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-launchpageDome.release.xcconfig"; sourceTree = "<group>"; };
+		DA5DFE512F723EE33D389FB8B374850F /* XHLaunchAdImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHLaunchAdImageManager.m; path = XHLaunchAd/XHLaunchAdImageManager.m; sourceTree = "<group>"; };
+		F74AF0176BC0784C464D6E47D4380F22 /* XHLaunchAdButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHLaunchAdButton.h; path = XHLaunchAd/XHLaunchAdButton.h; sourceTree = "<group>"; };
+		FEC9CCE9895CA25D1457E713EC941461 /* Pods-launchpageDome-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-launchpageDome-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B4D0DABE698DC290B5C556053ABE97E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755144939BC010DE7DCAA06D50818E9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CF5F38C2FC51A15415DB8D3D2C09854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4DBCE92E20A7B3FDE9C0C8E71A74CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181C3C261CBB2B131AE3F4AF2D92CB07 /* Pods-launchpageDome */ = {
+			isa = PBXGroup;
+			children = (
+				FEC9CCE9895CA25D1457E713EC941461 /* Pods-launchpageDome-acknowledgements.markdown */,
+				316F3E74F73DE7D92AA0B9BDD91D67AB /* Pods-launchpageDome-acknowledgements.plist */,
+				3CA3F6111B34FC2B5962FEF6B4E17FFD /* Pods-launchpageDome-dummy.m */,
+				9F8394B2B7134FE3F045DAA036266923 /* Pods-launchpageDome-frameworks.sh */,
+				BA034F264150B0C624C1A113DEB7F99B /* Pods-launchpageDome-resources.sh */,
+				7628E1A1E21823AB2FC7EF3BCC309982 /* Pods-launchpageDome.debug.xcconfig */,
+				D9158140A7E61F6FC0BD5BC8EF6E2FEB /* Pods-launchpageDome.release.xcconfig */,
+			);
+			name = "Pods-launchpageDome";
+			path = "Target Support Files/Pods-launchpageDome";
+			sourceTree = "<group>";
+		};
+		2440DD6C5FF759974697C3D2B70BF19B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				181C3C261CBB2B131AE3F4AF2D92CB07 /* Pods-launchpageDome */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		24CEA360B3B098B686270249028A0F39 /* XHLaunchAd */ = {
+			isa = PBXGroup;
+			children = (
+				60A0F909924F9B8B6E7DB8E8A05B0BE4 /* NSString+XHLaunchAd.h */,
+				BF65B4330EDADC27793954FA3FFAAD40 /* NSString+XHLaunchAd.m */,
+				001E94169C966A2ED7FE465CA26E4F7D /* UIImage+XHLaunchAd.h */,
+				9F21924BE68B492FD7C14E425BB3C50D /* UIImage+XHLaunchAd.m */,
+				049555887EBC494FCDA1194A55C5BE0D /* UIImageView+XHLaunchAdCache.h */,
+				69BC80B16F6B4F773DE167F719E3C5EA /* UIImageView+XHLaunchAdCache.m */,
+				59E4F0C730FF20CB98548F451CA0CF3A /* XHLaunchAd.h */,
+				32224D45E35062FB0F1D5EF78FC55424 /* XHLaunchAd.m */,
+				F74AF0176BC0784C464D6E47D4380F22 /* XHLaunchAdButton.h */,
+				7EFC160F5475157F7535EAF531C88046 /* XHLaunchAdButton.m */,
+				3619E54DE3E6BDC1CB956B78FB12CF2D /* XHLaunchAdCache.h */,
+				8F83BD75B5BBABB3DFA3443032FD1C01 /* XHLaunchAdCache.m */,
+				163849170D5695A9F8F98978392A3581 /* XHLaunchAdConfiguration.h */,
+				7228D9D4BE59732C977F4CEC396A02B7 /* XHLaunchAdConfiguration.m */,
+				C3486E608E10190A582FD5C4EF7851F0 /* XHLaunchAdDownload.h */,
+				43DB852B4222180CB1D90DB1A12E12B2 /* XHLaunchAdDownload.m */,
+				374E23FBF41F8DBAA4960F85E9053249 /* XHLaunchAdDownloader.h */,
+				17CC80C736B010557AC661E8034F0FF7 /* XHLaunchAdDownloader.m */,
+				A01FF1B31FE5C29A8F970183D739C413 /* XHLaunchAdImageManager.h */,
+				DA5DFE512F723EE33D389FB8B374850F /* XHLaunchAdImageManager.m */,
+				79FB7B0548060C7382EED4F9C89F4A6C /* XHLaunchAdView.h */,
+				A428F12F462DA70AE1827FDEBEFB36CA /* XHLaunchAdView.m */,
+				D384A64792F6459585DD0949AEE7E612 /* XHLaunchImageView.h */,
+				33B314E6768CBEA362E3DA91E1221D0B /* XHLaunchImageView.m */,
+				FE3FBD6C5BFB8B053068BF9DF1029E0F /* Support Files */,
+			);
+			name = XHLaunchAd;
+			path = XHLaunchAd;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9D9E75A7EC415E3BDBC8F05D1CFCDA72 /* Pods */,
+				C13E3D5F4F68A09BBBB078D25C861B9A /* Products */,
+				2440DD6C5FF759974697C3D2B70BF19B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9D9E75A7EC415E3BDBC8F05D1CFCDA72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24CEA360B3B098B686270249028A0F39 /* XHLaunchAd */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C13E3D5F4F68A09BBBB078D25C861B9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BEDAB9C308C8CAE6E8E07A5280DE1B2 /* libPods-launchpageDome.a */,
+				D77FFE605CB8F438B584918B5E392DA5 /* libXHLaunchAd.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE3FBD6C5BFB8B053068BF9DF1029E0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9134EDC80BA7A66726D28C4C29F11193 /* XHLaunchAd.xcconfig */,
+				8B656285C7582D31D6E5511702604662 /* XHLaunchAd-dummy.m */,
+				9EA369718878809D5BE473A7C6495500 /* XHLaunchAd-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XHLaunchAd";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D1A3DE91471CECD326AEFCA478F6B91E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B7994D7FE1704257CCFD931AB401D9 /* NSString+XHLaunchAd.h in Headers */,
+				F72CE66AACA3A4268A35BA0B34E1C079 /* UIImage+XHLaunchAd.h in Headers */,
+				A5FB20F5B74CFCCF03C560B62A6EF18A /* UIImageView+XHLaunchAdCache.h in Headers */,
+				3A9B1CC5685144774BE0A68DA50DA3A1 /* XHLaunchAd.h in Headers */,
+				97DE1E87145F1CCF466DBC6E7E617EE5 /* XHLaunchAdButton.h in Headers */,
+				E4CF93D3AC2EBC25115F9AFE146E99CD /* XHLaunchAdCache.h in Headers */,
+				392A4F316ACBD19AF567C5146F6A0CC1 /* XHLaunchAdConfiguration.h in Headers */,
+				944C56C23AFD742A7E4C7D187722CC9F /* XHLaunchAdDownload.h in Headers */,
+				ADF24A45AD27D038C8CB109A8D08C249 /* XHLaunchAdDownloader.h in Headers */,
+				F5307549D55625C5ECD9F2FE3E56BB09 /* XHLaunchAdImageManager.h in Headers */,
+				A059B1AC1F35A66D8089F46B6A7D0F50 /* XHLaunchAdView.h in Headers */,
+				40C864D216138C2C8C3D75AF8F7CDDFB /* XHLaunchImageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4E47CF262A2C532C08F66D24CF5955E7 /* XHLaunchAd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3808CF2E5713BE78F1CB37E15A87A6D /* Build configuration list for PBXNativeTarget "XHLaunchAd" */;
+			buildPhases = (
+				127A84F650D98828D305A44A9BFA304A /* Sources */,
+				1B4D0DABE698DC290B5C556053ABE97E /* Frameworks */,
+				D1A3DE91471CECD326AEFCA478F6B91E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XHLaunchAd;
+			productName = XHLaunchAd;
+			productReference = D77FFE605CB8F438B584918B5E392DA5 /* libXHLaunchAd.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6D0AE173F1F84D61808DF32EC3C0F0A9 /* Pods-launchpageDome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C237F111FC026D60938237AAA20F3D3 /* Build configuration list for PBXNativeTarget "Pods-launchpageDome" */;
+			buildPhases = (
+				1D9F5C52153038FC1BC01B4EBD6994B3 /* Sources */,
+				6CF5F38C2FC51A15415DB8D3D2C09854 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DC2048E78EC179E6E059DD4F61AC24C /* PBXTargetDependency */,
+			);
+			name = "Pods-launchpageDome";
+			productName = "Pods-launchpageDome";
+			productReference = 1BEDAB9C308C8CAE6E8E07A5280DE1B2 /* libPods-launchpageDome.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C13E3D5F4F68A09BBBB078D25C861B9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D0AE173F1F84D61808DF32EC3C0F0A9 /* Pods-launchpageDome */,
+				4E47CF262A2C532C08F66D24CF5955E7 /* XHLaunchAd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		127A84F650D98828D305A44A9BFA304A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1BEE97044A81F98034EF129EDAF954 /* NSString+XHLaunchAd.m in Sources */,
+				B0E2244B7BB6C0A591806C17F4132819 /* UIImage+XHLaunchAd.m in Sources */,
+				B46E264CA3229937E688DE1DDDD2BBEB /* UIImageView+XHLaunchAdCache.m in Sources */,
+				0FE0958DBD4753199C4CB3C24FF92FDA /* XHLaunchAd-dummy.m in Sources */,
+				E70051CD75E62D3D7AA07C0CF68950C3 /* XHLaunchAd.m in Sources */,
+				6E8C6FC72D9D7DBE0D88478520EE1F1F /* XHLaunchAdButton.m in Sources */,
+				D8695E79ECD453E02A520473F956235D /* XHLaunchAdCache.m in Sources */,
+				C1C233C930E1FB84FBC33482BA700A44 /* XHLaunchAdConfiguration.m in Sources */,
+				4FE961C6F49A93B9EAFA3C0EC2DFC262 /* XHLaunchAdDownload.m in Sources */,
+				93ECF7B5867A5A7942B08CEB7FF570E1 /* XHLaunchAdDownloader.m in Sources */,
+				812EE989652B3923247E4BC83A961B82 /* XHLaunchAdImageManager.m in Sources */,
+				D09E371D117D9E6A72671E695D1EEB72 /* XHLaunchAdView.m in Sources */,
+				23AFE8759E390C8E4736BDAB1BA25ADD /* XHLaunchImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9F5C52153038FC1BC01B4EBD6994B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58625504B1567263BB3A2BA399AC296 /* Pods-launchpageDome-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DC2048E78EC179E6E059DD4F61AC24C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XHLaunchAd;
+			target = 4E47CF262A2C532C08F66D24CF5955E7 /* XHLaunchAd */;
+			targetProxy = BE1573EE7FAFF283B0206E22E48B408D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2FE443DBE24FD370E4FE7E48B6E46CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9134EDC80BA7A66726D28C4C29F11193 /* XHLaunchAd.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XHLaunchAd/XHLaunchAd-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56E9DF5E44631CA099FF726E416A0C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9134EDC80BA7A66726D28C4C29F11193 /* XHLaunchAd.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XHLaunchAd/XHLaunchAd-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7718CC2A6AC50CB4C4DFB3B51092D0CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7628E1A1E21823AB2FC7EF3BCC309982 /* Pods-launchpageDome.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ABD729FA6E93809401DB5F8013EE686A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9158140A7E61F6FC0BD5BC8EF6E2FEB /* Pods-launchpageDome.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C237F111FC026D60938237AAA20F3D3 /* Build configuration list for PBXNativeTarget "Pods-launchpageDome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7718CC2A6AC50CB4C4DFB3B51092D0CA /* Debug */,
+				ABD729FA6E93809401DB5F8013EE686A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3808CF2E5713BE78F1CB37E15A87A6D /* Build configuration list for PBXNativeTarget "XHLaunchAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE443DBE24FD370E4FE7E48B6E46CAF /* Debug */,
+				56E9DF5E44631CA099FF726E416A0C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

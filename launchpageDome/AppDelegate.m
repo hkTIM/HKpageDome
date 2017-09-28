@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "AppDelegate+HkLauchAd.h"
+#import "introductoryPagesHelper.h"
+#define kUserDefaults       [NSUserDefaults standardUserDefaults]
 @interface AppDelegate ()
 
 @end
@@ -16,11 +18,25 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // 广告页
+    [self setupYCLaunchAd];
+    //引导页面加载
+    [self setupIntroductoryPage];
     // Override point for customization after application launch.
     return YES;
 }
 
-
+#pragma mark 引导页
+-(void)setupIntroductoryPage
+{
+    if ([kUserDefaults objectForKey:@"isNoFirstLaunch"]) {
+        return;
+    }
+    [kUserDefaults setBool:YES forKey:@"isNoFirstLaunch"];
+    [kUserDefaults synchronize];
+    NSArray *images=@[@"introductoryPage1",@"introductoryPage2",@"introductoryPage3",@"introductoryPage4"];
+    [introductoryPagesHelper showIntroductoryPageView:images];
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
