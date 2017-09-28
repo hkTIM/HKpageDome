@@ -35,7 +35,7 @@
 - (void)setupYCLaunchAd
 {
     //1.******图片开屏广告 - 网络数据******
-//    [self example01_imageAd_networkData];
+    [self example01_imageAd_networkData];
     
     
     //2.******图片开屏广告 - 本地数据******
@@ -43,7 +43,7 @@
     
     
     //3.******视频开屏广告 - 网络数据(网络视频只支持缓存OK后下次显示)******
-    [self example03_videoAd_networkData];
+//    [self example03_videoAd_networkData];
     
     
     //4.******视频开屏广告 - 本地数据******
